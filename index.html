@@ -643,8 +643,16 @@ https://templatemo.com/tm-518-sentra
         var delta = 5;
         var navbarHeight = $('header').outerHeight();
 
+        
+
         $(window).scroll(function(event){
             didScroll = true;
+            // Correzione bug
+            $('#nav-toggle').attr('aria-expanded','false')
+            $('#nav-toggle').addClass('collapsed')
+            $('#main-nav').removeClass('open').removeClass('in')
+            $('#main-nav').attr('aria-expanded','true')
+
         });
 
         setInterval(function() {
