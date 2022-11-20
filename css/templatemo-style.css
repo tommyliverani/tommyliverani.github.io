@@ -5,6 +5,7 @@ Sentra Template
 https://templatemo.com/tm-518-sentra
 
 */
+@import "colour.css";
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -53,7 +54,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: var(--second);
 }
 
 .section-heading p {
@@ -68,9 +69,9 @@ p {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: var(--second);
   text-transform: capitalize;
-  background-color: #fff;
+  background-color: var(--third);
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -81,16 +82,16 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
-  color: #fff;
+  background-color: var(--second);
+  color: var(--third);
 }
 
 .accent-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #fff;
+  color: var(--third);
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: var(--second);
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -101,8 +102,8 @@ p {
 }
 
 .accent-button a:hover {
-  background-color: #fff;
-  color: #45489a;
+  background-color: var(--third);
+  color: var(--second);
 }
 
 header {
@@ -159,7 +160,7 @@ header {
 #main-nav ul li a {
   font-size: 15px;
   text-transform: capitalize;
-  color: #fff;
+  color: var(--third);
   box-shadow: none;
   border: none;
 }
@@ -181,7 +182,7 @@ header {
   float: left;
   height: 100%;
   position: fixed;
-  background-color: rgba(12,12,12,0.9);
+  background-color: var(--first);;
   z-index: 10;
 }
 
@@ -190,14 +191,14 @@ header {
   width: 100%;
   height: 140px;
   line-height: 100px;
-  background-color: #45489a;
+  background-color: var(--second);
   padding: 20px;
   text-align: center;
 }
 
 .sidebar-navigation .logo a {
   text-decoration: none;
-  color: #fff;
+  color: var(--third);
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -238,7 +239,7 @@ header {
 }
 .sidebar-navigation nav a{
   display: inline-block;
-  color: #fff;
+  color: var(--third);
   margin-top: 5px;
   text-decoration: none!important;
   font-size: 15px;
@@ -253,7 +254,7 @@ header {
   top: -1px;
   border-radius: 50%;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid var(--third);
   transition: all 0.3s;
 }
 .rect{
@@ -261,16 +262,16 @@ header {
   width: 0px;
   left: 0;
   bottom: 5.5px;
-  background-color: #fff;
+  background-color: var(--third);
   -webkit-transition: -webkit-transform 0.1s, width 0.6s;
   -moz-transition: -webkit-transform 0.1s, width 0.6s;
   transition: transform 0.1s, width 0.6s;
 }
 .sidebar-navigation nav a:focus {
-  color: #fff;
+  color: var(--third);
 }
 .sidebar-navigation nav a:hover, nav .active-section {
-  color: #fff;
+  color: var(--third);
 }
 .sidebar-navigation nav a:hover span, nav .active-section span{
   background-color: #ddd;
@@ -279,7 +280,7 @@ header {
   width: 30px;
 }
 .sidebar-navigation nav .active-section .circle{
-  background-color: #fff;
+  background-color: var(--third);
 }
 
 .sidebar-navigation .social-icons {
@@ -303,12 +304,12 @@ header {
 
 .sidebar-navigation .social-icons li a {
   font-size: 18px;
-  color: #fff;
+  color: var(--third);
   transition: all 0.5s;
 }
 
 .sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+  color: var(--second);
 }
 
 
@@ -324,7 +325,7 @@ header {
 }
 
 .slider p a {
-	color: #FFF;
+	color: var(--third);
 }
 .slider p a:hover {
 	color: #FF0;
@@ -349,13 +350,13 @@ header {
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 48px;
-  color: #fff;
+  color: var(--third);
   font-weight: 700;
 }
 
 .Modern-Slider .info p {
   font-size: 15px;
-  color: #fff;
+  color: var(--third);
 }
 
 .Modern-Slider .info .white-button {
@@ -383,7 +384,7 @@ header {
   margin-top:-22.5px;
   text-align:center;
   font:32px/50px FontAwesome;
-  color:#FFF;
+  color:var(--third);
   z-index:5;
 }
 
@@ -401,7 +402,7 @@ header {
   margin-top:-22.5px;
   text-align:center;
   font:32px/50px FontAwesome;
-  color:#FFF;
+  color:var(--third);
   z-index:5;
 }
 
@@ -486,7 +487,7 @@ header {
 }
 
 #featured .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: var(--second)!important;
 }
 
 #featured .owl-dots button {
@@ -522,8 +523,8 @@ header {
 }
 
 #featured .owl-nav span:hover {
-  background-color: #45489a;
-  color: #fff;
+  background-color: var(--second);
+  color: var(--third);
 }
 
 #featured .item {
@@ -544,7 +545,7 @@ header {
 #featured .item .image .featured-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #fff;
+  color: var(--third);
   text-align: center;
   text-transform: capitalize;
   background-color: rgba(69,72,154, 0.9);
@@ -568,7 +569,7 @@ header {
 
 #featured .item .text-content {
   padding-top: 20px;
-  background-color: #fff;
+  background-color: var(--third);
   position: relative;
   z-index: 10;
 }
@@ -680,7 +681,7 @@ header {
   display: inline-block;
   width: 60px;
   height: 60px;
-  background:#fff;
+  background:var(--third);
   border-radius: 50%;
   text-indent: -999em;
   cursor: pointer;
@@ -736,7 +737,7 @@ header {
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid var(--second);
 }
 
 #blog .tabs li {
@@ -762,17 +763,17 @@ header {
 }
 
 #blog .tabs a:hover {
-  color: #45489a;
+  color: var(--second);
 }
 
 
 #blog .tabs .active:hover {
-  color: #fff;
+  color: var(--third);
 }
 
 #blog .tabs .active {
-  background-color: #45489a;
-  color: #fff;
+  background-color: var(--second);
+  color: var(--third);
 }
 
 .tabgroup {
@@ -888,9 +889,9 @@ header {
   font-size: 13px;
   border-radius: 0px;
   font-weight: 600;
-  color: #fff;
+  color: var(--third);
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: var(--second);
   display: inline-block;
   height: 44px;
   line-height: 24px;
@@ -912,7 +913,7 @@ header {
 /* Footer Style */
 
 .footer {
-  background-color: rgba(12,12,12,0.9);
+  background-color: var(--first);;
   height: 80px;
   line-height: 80px;
   display: inline-block;
@@ -924,14 +925,14 @@ header {
   margin-bottom: 0px;
   font-size: 13px;
   line-height: 80px;
-  color: #fff;
+  color: var(--third);
   letter-spacing: 0.5px;
   font-weight: 300;
 }
 
 .footer p a {
   text-decoration: none;
-  color: #fff;
+  color: var(--third);
   font-weight: 600;
 }
 
@@ -995,7 +996,7 @@ header {
     border:0 none;
     text-align:center;
     font:32px/50px FontAwesome;
-    color:#FFF;
+    color:var(--third);
     z-index:5;
   }
 
@@ -1014,7 +1015,7 @@ header {
     border:0 none;
     text-align:center;
     font:32px/50px FontAwesome;
-    color:#FFF;
+    color:var(--third);
     z-index:5;
   }
 
