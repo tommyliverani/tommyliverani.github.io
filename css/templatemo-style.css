@@ -1073,6 +1073,13 @@ header {
     padding-right: 15px;
   }
 
+  body.it :lang(en) {
+    display: none;
+  }
+  body.en :lang(it){
+    display: none;
+  }
+
   
 
 }

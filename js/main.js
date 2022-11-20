@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
         ///// Language Switching (2 languages: English and Chinese). /////
         
         // Initially disable language switching button.
-        $('#switch-lang').css({'pointer-events':'none',
+        /* $('#switch-lang').css({'pointer-events':'none',
             'cursor':'default'}).attr('disabled','disabled');
         
         function langButtonListen() {
@@ -190,6 +190,12 @@ jQuery(document).ready(function($) {
                 $.cookie('lang', 'it', { expires: 7 });
                 langButtonListen();
             }
-        }
+        }*/
+
+        $(function() {
+            $('#toggle-event').change(function() {
+              document.body.className = $(this).data($(this).prop("checked").toString());
+            });   
+          });
 
 });
