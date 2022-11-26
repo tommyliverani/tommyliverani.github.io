@@ -313,6 +313,72 @@ header {
 }
 
 
+
+
+
+.section-heading .social-icons {
+  position: absolute;
+  width: 100%;  
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.section-heading .social-icons li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.section-heading .social-icons li:last-child {
+  margin-right: 0px;
+}
+
+.section-heading .social-icons li a {
+  font-size: 40px;
+  color: var(--second);
+  transition: all 0.5s;
+}
+
+.section-headingn .social-icons li a:hover {
+  color: var(--second);
+}
+
+
+/*icone nella tendina*/
+
+#main-nav nav ul li .social-icons {
+  
+  width: 100%;  
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#main-nav nav ul li .social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+#main-nav nav ul li .social-icons li:last-child {
+  margin-right: 0px;
+}
+
+#main-nav nav ul li .social-icons li a {
+  font-size: 25px;
+  color: var(--third);
+  transition: all 0.5s;
+}
+
+#main-nav nav ul li .social-icons li a:hover {
+  color: var(--second);
+}
+
+
+
 /* Slider Style */
 
 .slider .content-section {
