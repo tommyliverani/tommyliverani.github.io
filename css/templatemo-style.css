@@ -131,7 +131,7 @@ header {
 .navbar-toggle {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 80%;
   display: inline-block;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -143,6 +143,7 @@ header {
 .navbar-nav {
   margin: 0;
   border: none;
+  
 }
 
 #main-nav ul {
